@@ -3,7 +3,7 @@
 **M.Tech (AIML) – Machine Learning, Assignment 2**
 
 - **GitHub repository:** `https://github.com/2026ak05218-create/ml-assignment-2-telco-churn.git`
-- **Live Streamlit app:** `<paste your Streamlit Community Cloud link here>`
+- **Live Streamlit app:** `https://ml-assignment-2-telco-churn.streamlit.app/`
 
 ---
 
