@@ -1,0 +1,55 @@
+{
+  "dataset": "Telco Customer Churn (Kaggle: blastchar/telco-customer-churn)",
+  "target": "Churn",
+  "positive_class": "Yes (churned) = 1",
+  "numeric_features": [
+    "SeniorCitizen",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical_features": [
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "train_rows": 5634,
+  "test_rows": 1409,
+  "best_params": {
+    "Logistic Regression": {
+      "C": 10.0
+    },
+    "Decision Tree": {
+      "max_depth": 8,
+      "min_samples_leaf": 50
+    },
+    "KNN": {
+      "n_neighbors": 31,
+      "weights": "uniform"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 0.001
+    },
+    "Support Vector Machine": {
+      "C": 0.5,
+      "gamma": 0.01
+    }
+  },
+  "python": "3.12.10",
+  "scikit_learn": "1.6.1",
+  "pandas": "2.2.3"
+}
