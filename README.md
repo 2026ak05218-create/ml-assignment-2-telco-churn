@@ -2,7 +2,7 @@
 
 **M.Tech (AIML) – Machine Learning, Assignment 2**
 
-- **GitHub repository:** `<paste your GitHub repo link here>`
+- **GitHub repository:** `https://github.com/2026ak05218-create/ml-assignment-2-telco-churn.git`
 - **Live Streamlit app:** `<paste your Streamlit Community Cloud link here>`
 
 ---
@@ -54,7 +54,7 @@ The test set was not used for training or tuning. Hyper-parameters were chosen w
 
 ## c. GitHub repository link
 
-`<paste your GitHub repo link here>`
+`https://github.com/2026ak05218-create/ml-assignment-2-telco-churn.git`
 
 **Repository structure**
 
