@@ -2,10 +2,8 @@
 
 **M.Tech (AIML) – Machine Learning, Assignment 2**
 
-- **GitHub repository:** `https://github.com/2026ak05218-create/ml-assignment-2-telco-churn`
-- **Live Streamlit app:** `https://ml-assignment-2-telco-churn.streamlit.app/`
-* GitHub repository: <https://github.com/2026ak05218-create/ml-assignment-2-telco-churn>
-* Live Streamlit app: <https://ml-assignment-2-telco-churn.streamlit.app/>
+- **GitHub repository:** https://github.com/2026ak05218-create/ml-assignment-2-telco-churn
+- **Live Streamlit app:** https://ml-assignment-2-telco-churn.streamlit.app/
 
 ---
 
@@ -56,7 +54,7 @@ The test set was not used for training or tuning. Hyper-parameters were chosen w
 
 ## c. GitHub repository link
 
-`https://github.com/2026ak05218-create/ml-assignment-2-telco-churn.git`
+https://github.com/2026ak05218-create/ml-assignment-2-telco-churn
 
 **Repository structure**
 
@@ -139,7 +137,7 @@ The app (`app.py`) provides:
 4. The **confusion matrix** and **classification report** for the selected model.
 5. A **comparison table and chart of all five models** on the uploaded test data.
 
-The app only loads the saved `.joblib` pipelines from `model/` and calls `predict` and `predict_proba`('decision_function' for. ths SVM). It never retrains on the uploaded data.
+The app only loads the saved `.joblib` pipelines from `model/` and calls `predict` and `predict_proba` (`decision_function` for the SVM). It never retrains on the uploaded data.
 The uploaded CSV must contain the 19 input columns and the `Churn` column (Yes/No). `customerID` is optional and ignored. The app shows an error if columns are missing, the target has other values, or numeric columns contain text.
 
 ---
@@ -162,7 +160,7 @@ Training takes about one minute. The versions in `requirements.txt` are pinned b
 1. Push this repository to GitHub (public).
 2. Go to https://streamlit.io/cloud and sign in with GitHub.
 3. Click **New app**, select this repository, branch `main` and file `app.py`.
-4. Click **Deploy**.
+4. Open **Advanced settings**, choose **Python 3.12**, then click **Deploy**. The pinned `numpy==2.2.6` has no wheels for Python 3.14, so with the newest Python the build gets stuck compiling numpy.
 
 ## Notes and limitations
 
