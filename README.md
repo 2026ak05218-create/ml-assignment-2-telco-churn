@@ -4,6 +4,8 @@
 
 - **GitHub repository:** `https://github.com/2026ak05218-create/ml-assignment-2-telco-churn`
 - **Live Streamlit app:** `https://ml-assignment-2-telco-churn.streamlit.app/`
+* GitHub repository: <https://github.com/2026ak05218-create/ml-assignment-2-telco-churn>
+* Live Streamlit app: <https://ml-assignment-2-telco-churn.streamlit.app/>
 
 ---
 
