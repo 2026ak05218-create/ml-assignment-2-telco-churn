@@ -152,7 +152,7 @@ st.dataframe(
     comparison.style.highlight_max(axis=0, color="#c6efce").format("{:.4f}"),
     use_container_width=True,
 )
-st.bar_chart(comparison[["Accuracy", "AUC", "F1", "MCC"]])
+st.bar_chart(comparison[["Accuracy", "AUC", "F1", "MCC"]], stack=False)
 
 csv_bytes = comparison.to_csv().encode("utf-8")
 st.download_button("Download comparison table (CSV)", csv_bytes, "model_comparison.csv", "text/csv")
