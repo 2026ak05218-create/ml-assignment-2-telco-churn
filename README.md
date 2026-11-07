@@ -139,7 +139,7 @@ The app (`app.py`) provides:
 4. The **confusion matrix** and **classification report** for the selected model.
 5. A **comparison table and chart of all five models** on the uploaded test data.
 
-The app only loads the saved `.joblib` pipelines from `model/` and calls `predict` / `predict_proba`. It never retrains on the uploaded data.
+The app only loads the saved `.joblib` pipelines from `model/` and calls `predict` and `predict_proba`('decision_function' for. ths SVM). It never retrains on the uploaded data.
 The uploaded CSV must contain the 19 input columns and the `Churn` column (Yes/No). `customerID` is optional and ignored. The app shows an error if columns are missing, the target has other values, or numeric columns contain text.
 
 ---
